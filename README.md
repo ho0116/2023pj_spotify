@@ -11,4 +11,4 @@
 ## 2. 데이터
 
 ### 2.1 데이터 출처
-Kaggle에서 Spotify App Reviews 데이터를 사용하였습니다.(https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022)
+Kaggle에서 Spotify App Reviews 데이터를 사용하였습니다. (https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022)
