@@ -1,5 +1,5 @@
 # spotify 음악앱 리뷰 감성분석
-<img src = "https://user-images.githubusercontent.com/85285367/232660702-4bd550d9-13d7-45df-ae7d-e6e312e77f6d.png" width="500">
+<img src = "https://user-images.githubusercontent.com/85285367/232660702-4bd550d9-13d7-45df-ae7d-e6e312e77f6d.png">
 MobileBert를 이용하여 리뷰 긍부정을 예측해보는 프로젝트
 
 ## 1. 개요
