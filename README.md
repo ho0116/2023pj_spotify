@@ -14,5 +14,5 @@
 Kaggle에서 Spotify App Reviews(https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022) 데이터를 사용하였습니다.
 
 ### 2.2 구성
-6만여 개의 1전부터 5점까지의 리뷰가 있다.
+61356 개의 리뷰가 있으며 1점부터 5점까로 구성되어있다.
 <div><img src = "https://user-images.githubusercontent.com/85285367/232650843-7b7cc531-297b-48a8-9946-26046b172f31.png" width="300" align="left"></div>
