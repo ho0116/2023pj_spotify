@@ -1,5 +1,5 @@
-# spotify 음악앱 리뷰 감성분석
-<p>MobileBert를 이용하여 리뷰 긍부정을 예측해보는 프로젝트</p>
+<ul> # spotify 음악앱 리뷰 감성분석
+  <li>MobileBert를 이용하여 리뷰 긍부정을 예측해보는 프로젝트</li></ul>
 
 ## 1. 개요
 
