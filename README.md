@@ -1,4 +1,4 @@
-# spotify 음악앱 리뷰 감성분석
+# spotify 음악앱 리뷰 감성분석 :musical_note:
 MobileBert를 이용하여 리뷰 긍부정을 예측해보는 프로젝트
 
 ## 1. 개요
