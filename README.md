@@ -29,5 +29,6 @@ kaggle [Spotify App](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews
       import seaborn as sns
       data = pd.read_csv('spotify-app-reviews-2022.csv')
       sns.countplot(data=data, x="Rating")
-sad      
+![image](https://user-images.githubusercontent.com/85285367/232947366-ef6f0aad-cb67-45a5-a162-1a14fee76849.png)
+      
 <div><img src = "https://user-images.githubusercontent.com/85285367/232946755-84bc9efe-56f0-4a1a-8015-c5914f21658e.png" width="350"></div>
