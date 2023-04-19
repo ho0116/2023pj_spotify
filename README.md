@@ -31,3 +31,7 @@ kaggle [Spotify App](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews
       sns.countplot(data=data, x="Rating")
 
 <div><img src = "https://user-images.githubusercontent.com/85285367/232946755-84bc9efe-56f0-4a1a-8015-c5914f21658e.png" width="350"></div>
+      
+      
+      
+      ![image](https://user-images.githubusercontent.com/85285367/232946963-b1e03ce5-ea15-446f-9a95-517531745039.png)
