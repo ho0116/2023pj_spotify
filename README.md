@@ -12,7 +12,7 @@ MobileBert를 이용하여 리뷰 긍부정을 예측해보는 프로젝트
 ## 2. 데이터
 
 ### 2.1 데이터 출처
-Kaggle에서 Spotify App Reviews(https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022) 데이터를 사용하였습니다.
+Kaggle에서 Spotify App Reviews(https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022) 데이터를 사용했다.
 
 ### 2.2 구성
 |데이터명|설명|
