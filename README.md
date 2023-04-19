@@ -40,6 +40,8 @@ kaggle [Spotify App](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews
       
 <div><img src = "https://user-images.githubusercontent.com/85285367/232946755-84bc9efe-56f0-4a1a-8015-c5914f21658e.png" width="350"></div>
 
+1, 2점은 부정, 3점은 중립, 4, 5점은 긍정으로 분류했다.
+
     data["Rating"].replace(1, value="negative",inplace=True)
     data["Rating"].replace(2, value="negative",inplace=True)
     data["Rating"].replace(3, value="neutral",inplace=True)
