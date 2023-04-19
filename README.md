@@ -19,7 +19,7 @@ Kaggle에서 Spotify App Reviews(https://www.kaggle.com/datasets/mfaaris/spotify
 |---|---|
 |Time_submitted|리뷰 제출 시간|
 |Review|리뷰|
-|Rating|점수|
+|Rating|평점|
 |Total_thumbsup|도움된 수|
 |Reply|리뷰 재응답|
 
