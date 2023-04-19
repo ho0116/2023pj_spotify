@@ -16,9 +16,10 @@ kaggle [Spotify App](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews
 
 ### 2.1 구성
 - 데이터명
-  |Time_submitted|Review|Rating|Total_thumbsup|Reply|
-  |---|---|---|---|---|
-  |리뷰 제출 시간|리뷰|평점|도움된 수|리뷰 재응답|
+
+|Time_submitted|Review|Rating|Total_thumbsup|Reply|
+|---|---|---|---|---|
+|리뷰 제출 시간|리뷰|평점|도움된 수|리뷰 재응답|
 
 6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다.
 <div><img src = "https://user-images.githubusercontent.com/85285367/232650843-7b7cc531-297b-48a8-9946-26046b172f31.png" width="350"></div>
