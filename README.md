@@ -1,7 +1,7 @@
 # Spotify App 리뷰 감성분석 :musical_note:
 
 <div>
-MobileBert를 이용하여 oogle Play Store의 Spotify App 리뷰 긍부정을 예측해보는 프로젝트
+MobileBert를 이용하여 Google Play Store의 Spotify App 리뷰 긍부정을 예측해보는 프로젝트
     
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 </div>
