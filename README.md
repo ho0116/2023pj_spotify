@@ -1,5 +1,12 @@
 # spotify 음악앱 리뷰 감성분석 :musical_note:
+
+<div align=center>
 MobileBert를 이용하여 리뷰 긍부정을 예측해보는 프로젝트
+    
+<img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
+</div>
 
 ## 1. 개요
 
