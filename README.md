@@ -22,4 +22,7 @@ kaggle [Spotify App](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews
 |리뷰 제출 시간|리뷰|평점|도움된 수|리뷰 재응답|
 
 6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다.
+
+      data = pd.read_csv('spotify-app-reviews-2022.csv')
+
 <div><img src = "https://user-images.githubusercontent.com/85285367/232650843-7b7cc531-297b-48a8-9946-26046b172f31.png" width="350"></div>
