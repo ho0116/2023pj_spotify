@@ -35,7 +35,26 @@ kaggle [Spotify App](https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews
 
     import matplotlib.pyplot as plt
     import seaborn as sns
-    data = pd.read_csv('spotify-app-reviews-2022.csv')
+    data = pd.read_csv('spotifyrv.csv')
     sns.countplot(data=data, x="Rating")
       
 <div><img src = "https://user-images.githubusercontent.com/85285367/232946755-84bc9efe-56f0-4a1a-8015-c5914f21658e.png" width="350"></div>
+
+    data["Rating"].replace(1, value="negative",inplace=True)
+    data["Rating"].replace(2, value="negative",inplace=True)
+    data["Rating"].replace(3, value="neutral",inplace=True)
+    data["Rating"].replace(4, value="positive",inplace=True)
+    data["Rating"].replace(5, value="positive",inplace=True)
+    sns.histplot(data['Rating'])
+    plt.title('Ratings')
+    plt.xlabel('')
+    plt.show()
+
+
+<div><img src ="https://user-images.githubusercontent.com/85285367/232965879-a6247b8a-6927-4006-8818-e3d222b641b9.png"></div>
+
+
+
+
+
+
