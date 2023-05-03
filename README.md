@@ -9,7 +9,7 @@ MobileBert를 이용하여 Google Play Store의 Spotify App 리뷰 긍부정을 
 ## 1. 개요
 
 ### 1.1 문제정의
-Google Play Store는 음악, 동영상, 책, 안드로이드 응용 프로그램, 게임을 포함한 온라인 스토어와 클라우드 미디어 플레이어를 아우르는 구글의 디지털 콘텐츠 서비스이다. 안드로이드에서 사용할 수 있다. 안드로이드는 2023년 4월 기준 전 세계 모바일 운영체제(OS) 시장에서 안드로이드(Android)의 점유율은 약 68.79% 이다. [1]
+Google Play Store는 음악, 동영상, 책, 안드로이드 응용 프로그램, 게임을 포함한 온라인 스토어와 클라우드 미디어 플레이어를 아우르는 구글의 디지털 콘텐츠 서비스이다. 안드로이드에서 사용할 수 있다. 안드로이드는 2023년 4월 기준 전 세계 모바일 운영체제(OS) 시장에서 안드로이드(Android)의 점유율은 약 68.79% 이다.[1]  
 음악감상은 스트리밍 서비스의 발전으로 대중의 접근성이 더 좋아졌다. 스트리밍 서비스를 지원하는 spotify는 현재 180여개 국가에서 서비스를 제공하고 있다. IT 시장조사업체 미디어리서치(MIDiA)에 따르면 2022년 상반기 기준 spotify는 전 세계 음악 스트리밍 서비스 시장의 30% 가량(구독자 1억8780만명)을 차지하고 있다.[2] spotify가 다른 스트리밍 앱들보다 경쟁력이 있는지 알기 위해 Kaggle에서 제공하는 spotify app 리뷰 데이터를 바탕으로 리뷰의 긍정 또는 부정을 예측하는 인공지능 모델을 개발하고자 한다.
 
 ### 1.2 spotify 리뷰의 영향력
@@ -43,9 +43,9 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
       
 <div><img src = "https://user-images.githubusercontent.com/85285367/232946755-84bc9efe-56f0-4a1a-8015-c5914f21658e.png" width="350"></div>
 
-1, 2점은 부정, 3점은 중립, 4, 5점은 긍정으로 분류했다.
+1, 2점은 부정, 4, 5점은 긍정으로 분류했다.
 
-<div><img src ="https://user-images.githubusercontent.com/85285367/232965879-a6247b8a-6927-4006-8818-e3d222b641b9.png"></div>
+<div><img src ="https://user-images.githubusercontent.com/85285367/235824443-9ee9b7b4-c82e-47f9-9837-5646b19b611a.png" width="350"></div>
 
 
 
