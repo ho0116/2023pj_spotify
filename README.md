@@ -47,6 +47,8 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 <div><img src ="https://user-images.githubusercontent.com/85285367/235824443-9ee9b7b4-c82e-47f9-9837-5646b19b611a.png" width="350"></div>
 
+리뷰 문장 길이
+<div><img src ="https://user-images.githubusercontent.com/85285367/235825597-821447b6-4121-495b-be0a-601d4e4614ad.png" width="350"></div>
 
 
 
