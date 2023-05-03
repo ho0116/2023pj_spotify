@@ -29,11 +29,15 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 - 데이터
 
-|Time_submitted|Review|Rating|Total_thumbsup|Reply|
-|---|---|---|---|---|
-|리뷰 제출 시간|리뷰|평점|도움된 수|리뷰 재응답|
-![image](https://user-images.githubusercontent.com/85285367/234442016-c06bace2-4d0f-47aa-bbeb-d48d89d294c6.png)
-
+||Time_submitted|Review|Rating|Total_thumbsup|Reply|
+|---|---|---|---|---|---|
+|0|2022-07-09 15:00:00|Great nusic service, the audio is higy quality..|5|2|NaN|
+|1|2022-07-09 14:21:22|Please ignore previous negative rating..|5|1|NaN|
+|2|2022-07-09 13:27:32|This pop-up "Get the best Spotify eperience..|4|0|NaN|
+|...|...|...|...|...|...|
+|61591|2022-01-01 01:02:29|This app would be good if not for it..|2|10|NaN|
+|61592|2022-01-01 00:49:23|The app is good hard to navigate and won't..|2|1|NaN|
+|61593|2022-01-01 00:19:09|Its good but sometimes it doesnt load the..|4|0|NaN|
 
 6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다.
       
