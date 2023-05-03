@@ -25,7 +25,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 |Time_submitted|Review|Rating|Total_thumbsup|Reply|
 |---|---|---|---|---|
-|리뷰 제출 시간|리뷰|평점|도움된 수|리뷰 재응답|
+|리뷰 제출 시간|리뷰|평점|도움된 수|댓글|
 
 - 데이터
 
