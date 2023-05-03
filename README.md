@@ -1,4 +1,6 @@
 # Spotify App 리뷰 감성분석 :musical_note:
+<div><img src ="https://user-images.githubusercontent.com/85285367/235826775-224c4b7c-57b3-4e1d-b13e-49849cb86cbd.png"></div>
+
 
 <div>
 MobileBert를 이용하여 Google Play Store의 Spotify App 리뷰 긍부정을 예측해보는 프로젝트
