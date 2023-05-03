@@ -53,5 +53,5 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 
 ### ---출처---
-[1] <a href="https://gs.statcounter.com/os-market-share/mobile/worldwide/">안드로이드</a>
+[1] <a href="https://gs.statcounter.com/os-market-share/mobile/worldwide/">안드로이드</a>  
 [2] <a href="https://biz.chosun.com/it-science/ict/2023/03/21/P6ZEG3RF2VDU7K4R2MO3B6S5BY">미디어리서치(MIDiA)</a>
