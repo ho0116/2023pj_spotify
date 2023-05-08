@@ -33,7 +33,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 ||Time_submitted|Review|Rating|Total_thumbsup|Reply|
 |---|---|---|---|---|---|
-|0|2022-07-09 15:00:00|Great usic service, the audio is higy quality..|5|2|NaN|
+|0|2022-07-09 15:00:00|Great music service, the audio is higy quality..|5|2|NaN|
 |1|2022-07-09 14:21:22|Please ignore previous negative rating..|5|1|NaN|
 |2|2022-07-09 13:27:32|This pop-up "Get the best Spotify eperience..|4|0|NaN|
 |...|...|...|...|...|...|
