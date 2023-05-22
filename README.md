@@ -43,16 +43,17 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다.
       
-<div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/75df662c-fa0e-4223-97d7-5fb90d922745" width="350"></div>
+<div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/bfdfaaeb-133d-4909-abb4-bc828b9e3bbf" width="400"></div>
 
 
 1, 2점은 부정, 4, 5점은 긍정으로 분류했다.
 
-<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/71197cdc-8eaf-47fe-b114-35d4333ec7c1" width="350"></div>
+<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/6fed5991-f041-4ca9-82d2-732ef885fb62" width="400"></div>
+
 
 
 리뷰 문장 20자 이상 길이
-<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/b02823cb-472b-4c33-a5fc-f010c6eb814d" width="350"></div>
+<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/b02823cb-472b-4c33-a5fc-f010c6eb814d" width="400"></div>
 
 
 
