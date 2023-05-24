@@ -54,3 +54,15 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 1, 2점은 부정 4, 5점은 긍정으로 분류했다.
 
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/9ed9b098-b40e-4856-83f2-74137d95c4c0" width="400"></div>
+
+- 데이터
+
+||Review|Rating|Ratings|
+|---|---|---|---|
+|0|Great music service, the audio is higy quality..|5|positive|
+|1|Please ignore previous negative rating..|5|positive|
+|2|This pop-up "Get the best Spotify eperience..|4|positive|
+|...|...|...|...|
+|61591|This app would be good if not for it..|2|negative|
+|61592|The app is good hard to navigate and won't..|2|negative|
+|61593|Its good but sometimes it doesnt load the..|4|positive|
