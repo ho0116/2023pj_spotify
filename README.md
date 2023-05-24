@@ -47,7 +47,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 리뷰 문장 20자 이상 520자 이하 길이
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/b4a13bda-e0e1-446a-b0c0-bd6749c1e791" width="400"></div>
-20자에서 100자에 많은 리뷰가 몰려있다
+100자 전후로 많은 리뷰가 몰려있다
 
 ### 2.2 데이터 가공
 
