@@ -67,4 +67,4 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |61592|The app is good hard to navigate and won't..|2|negative|
 |61593|Its good but sometimes it doesnt load the..|4|positive|
 
-필요한 데이터와 긍부정 나눈것을 합쳐서 하나의 데이터로 
+필요한 데이터와 긍부정 나눈것을 합쳐서 하나의 데이터로 만들
