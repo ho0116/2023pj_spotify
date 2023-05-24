@@ -49,13 +49,13 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 도움된 수를 별점별과 평균값에 대한 그래프를 그려봤다
 <div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/f2cc7700-2a67-4c2c-8646-5bacd4c2b61c" width="400"></div>
 
-리뷰 문장 20자 이상 길이
+리뷰 문장 20자 이상 길이의 분포도
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/b4a13bda-e0e1-446a-b0c0-bd6749c1e791" width="400"></div>
 100자 전후로 많은 리뷰가 몰려있다
 
 ### 2.2 데이터 가공
 
-1, 2점은 부정 4, 5점은 긍정으로 분류했다.
+1, 2점은 부정 4, 5점은 긍정으로 분류했다
 
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/9ed9b098-b40e-4856-83f2-74137d95c4c0" width="400"></div>
 
@@ -73,7 +73,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |61593|Its good but sometimes it doesnt load the..|4|positive|
 
 
-긍부정 리뷰 문장 20자 이상 길이
+긍부정 리뷰 문장 20자 이상 길이의 분포
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/81c86908-758d-48a2-a976-c5185761c27f" width="400"></div>
 
 
