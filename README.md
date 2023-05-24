@@ -41,11 +41,15 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |61592|2022-01-01 00:49:23|The app is good hard to navigate and won't..|2|1|NaN|
 |61593|2022-01-01 00:19:09|Its good but sometimes it doesnt load the..|4|0|NaN|
 
-6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다.
+6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다
       
 <div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/86cb68fa-9547-432c-9a86-dc761a41e329" width="400"></div>
 
-리뷰 문장 20자 이상 520자 이하 길이
+
+도움된 수를 별점별과 평균값에 대한 그래프를 그려봤다
+<div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/f2cc7700-2a67-4c2c-8646-5bacd4c2b61c" width="400"></div>
+
+리뷰 문장 20자 이상 길이
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/b4a13bda-e0e1-446a-b0c0-bd6749c1e791" width="400"></div>
 100자 전후로 많은 리뷰가 몰려있다
 
@@ -55,6 +59,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/9ed9b098-b40e-4856-83f2-74137d95c4c0" width="400"></div>
 
+필요한 데이터와 긍부정 나눈것을 합쳐서 하나의 데이터로 만들었다
 - 데이터
 
 ||Review|Rating|Ratings|
@@ -67,4 +72,8 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |61592|The app is good hard to navigate and won't..|2|negative|
 |61593|Its good but sometimes it doesnt load the..|4|positive|
 
-필요한 데이터와 긍부정 나눈것을 합쳐서 하나의 데이터로 만들
+
+긍부정 리뷰 문장 20자 이상 길이
+<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/81c86908-758d-48a2-a976-c5185761c27f" width="400"></div>
+
+
