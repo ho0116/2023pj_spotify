@@ -85,3 +85,14 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/81c86908-758d-48a2-a976-c5185761c27f" width="400"></div>
 
 
+### 가공한 데이터 학습
+0,1에서 각각 1000개의 데이터를 추출하여 학습 시켜봤다
+주황색 : 첫번째 데이터 학습, 파란색 : 두번째 데이터 학습
+<div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/fae07f4c-13a8-4298-8cae-b8961797f560" width="600"></div>
+
+약 5만 4천개의 데이터의 정확도는 0.89가 나왔다
+
+
+
+
+
