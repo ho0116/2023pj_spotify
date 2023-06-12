@@ -85,15 +85,15 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 
 ### 가공한 데이터 학습
-0,1에서 각각 1000건씩 추출하여 2000건을 학습했다.
+0,1에서 각각 1000건씩 추출하여 2000건을 학습했다  
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/c1f86774-1951-4e15-98a0-82cbb8250630"></div>
-모델의 긍부정 예측 정확도는 0.91이 나왔다.
+모델의 긍부정 예측 정확도는 0.91이 나왔다  
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/eadf19b7-e775-4f24-b878-24fdfbdbc92f" width="400"></div>
-모델의 loss 그래프 학습할수록 loss가 떨어지고 있다.
+모델의 loss 그래프 학습할수록 loss가 떨어지고 있다  
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/d2ca6bba-1e96-4734-9654-0c0189558c06" width="400"></div>
-Accuracy 그래프 학습할수록 정확도가 올라가고 있다.
-
-약 5만 4천개의 데이터의 정확도는 0.89가 나왔다
+Accuracy 그래프 학습할수록 정확도가 올라가고 있다  
+<div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/ff0fd7db-4bb5-4f71-9812-7c0cbcc45813" width="400"></div>
+전체 데이터의 긍부정 예측 정확도는 0.87이 나왔다
 
 
 
