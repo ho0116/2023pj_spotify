@@ -20,6 +20,8 @@ Google Play Store는 음악, 동영상, 책, 안드로이드 응용 프로그램
 평점과 리뷰는 중요하다. 앱과 제공하는 전반적인 서비스에 대한 사용자의 경험은 가치 있는 정량적, 정성적 피드백을 제공한다. 그렇기 때문에 사람들이 Google Play Store에서 어플을 다운로드할지 결정할 때 고려하는 요소 중 하나가 된다. <a href="https://android-developers.googleblog.com/2021/08/making-ratings-and-reviews-better-for.html">[2]</a>  
 음악감상은 스트리밍 서비스의 발전으로 대중의 접근성이 더 좋아졌다. 스트리밍 서비스를 지원하는 spotify는 현재 180여개 국가에서 서비스를 제공하고 있다. IT 시장조사업체 미디어리서치(MIDiA)에 따르면 2022년 상반기 기준 spotify는 전 세계 음악 스트리밍 서비스 시장의 30% 가량(구독자 1억8780만명)을 차지하고 있다. <a href="https://biz.chosun.com/it-science/ict/2023/03/21/P6ZEG3RF2VDU7K4R2MO3B6S5BY">[3]</a>  
 <img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/fa093c4d-2755-49ba-a4f9-09690ba979f2" width="400"/>  
+2023년 3월 31일 기준으로 5억 1,500만 명이 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. 이러한 성장의 대부분은 무료 광고 지원 버전의 Spotify 서비스를 사용하는 사람들을 기반으로 한다. 프리미엄 구독은 전년 대비 15% 증가한 2억 1천만 명으로 유럽과 라틴 아메리카를 비롯한 모든 지역에서 우수한 실적을 보였다. <a href="https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/">[4]</a>  
+<a href="https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/" target="_blank"><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/7cfe0e9f-b3c9-4b97-9084-839becc33f12" width="400"/></a>
 
 spotify가 다른 스트리밍 앱들보다 경쟁력이 있는지 알기 위해 Kaggle에서 제공하는 spotify app 리뷰 데이터를 바탕으로 리뷰의 긍정 또는 부정을 예측하는 인공지능 모델을 개발하고자 한다.
 
@@ -76,9 +78,9 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |1|Please ignore previous negative rating..|0|
 |2|This pop-up "Get the best Spotify eperience..|0|
 |...|...|...|
-|61591|This app would be good if not for it..|1|
-|61592|The app is good hard to navigate and won't..|1|
-|61593|Its good but sometimes it doesnt load the..|0|
+|54281|This app would be good if not for it..|1|
+|54282|The app is good hard to navigate and won't..|1|
+|54283|Its good but sometimes it doesnt load the..|0|
 
 
 긍부정 리뷰 문장 20자 이상 길이의 분포
@@ -86,7 +88,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 
 ### 가공한 데이터 학습
-0,1에서 각각 1000개의 데이터를 추출하여 학습 시켜봤다
+0,1에서 각각 1000개의 데이터를 추출하여 학습 시켜봤다  
 주황색 : 첫번째 데이터 학습, 파란색 : 두번째 데이터 학습
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/fae07f4c-13a8-4298-8cae-b8961797f560" width="600"></div>
 
