@@ -82,7 +82,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/81c86908-758d-48a2-a976-c5185761c27f" width="400"></div>
 
 
-### 가공한 데이터 학습
+### 데이터 학습
 0,1에서 각각 1000건씩 추출하여 2000건을 학습했다  
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/c1f86774-1951-4e15-98a0-82cbb8250630"></div>
 모델의 긍부정 예측 정확도는 0.91이 나왔다  
