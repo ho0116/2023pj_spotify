@@ -7,11 +7,10 @@ MobileBert를 이용하여 Google Play Store의 Spotify App 리뷰 긍부정을 
     
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 </div>
-
 ## 1. 개요
 
 ### 1.1 문제정의
-음악감상은 스트리밍 서비스의 발전으로 대중의 접근성이 더 좋아졌다. Google Play Store를 통해 다양한 음악 스트리밍 앱을 찾을 수 있으며, 사용자들은 이러한 앱을 통해 원하는 음악을 언제 어디서나 즐길 수 있다.
+음악감상은 스트리밍 서비스의 발전으로 대중의 접근성이 더 좋아졌다. Google Play Store를 통해 다양한 음악 스트리밍 앱을 다운로드할 수 있으며, 사용자들은 이러한 앱을 통해 원하는 음악을 언제 어디서나 즐길 수 있다.
   
 <div align="center"><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/92ab9528-3faf-47fd-8ea1-a2db2a80d62d" width="500"></div>
 Google Play Store는 음악, 동영상, 책, 안드로이드 응용 프로그램, 게임을 포함한 온라인 스토어와 클라우드 미디어 플레이어를 아우르는 구글의 디지털 콘텐츠 서비스이다.  
@@ -61,12 +60,12 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다
       
-<div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/86cb68fa-9547-432c-9a86-dc761a41e329" width="400"><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/f2cc7700-2a67-4c2c-8646-5bacd4c2b61c" width="400"></div>
+<div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/86cb68fa-9547-432c-9a86-dc761a41e329" width="400"><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/b784c1d8-85f7-4efc-933e-912ef76900af" width="400"></div>
 도움된 수를 평점별과 평균값에 대한 그래프를 그려봤다  
 
   
-- 리뷰 문장 20자 이상 길이의 분포도
-<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/b4a13bda-e0e1-446a-b0c0-bd6749c1e791" width="400"></div>
+- 리뷰 문장 10자 이상 길이의 분포도
+<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/142995b8-ea69-4dee-9c30-24c21a00d9ba" width="400"></div>
 100자 전후로 많은 리뷰가 몰려있다
 
 ### 2.2 데이터 가공
@@ -84,14 +83,28 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |1|Please ignore previous negative rating..|0|
 |2|This pop-up "Get the best Spotify eperience..|0|
 |...|...|...|
-|54281|This app would be good if not for it..|1|
-|54282|The app is good hard to navigate and won't..|1|
-|54283|Its good but sometimes it doesnt load the..|0|
+|54279|This app would be good if not for it..|1|
+|54280|The app is good hard to navigate and won't..|1|
+|54281|Its good but sometimes it doesnt load the..|0|
 
+### 2.3 학습 데이터
+긍,부정에서 임의로 각각 1000건씩 추출하여 2000건을 학습했다
+||Review|Label|
+|---|---|---|
+|0|Great music service, the audio is higy quality..|0|
+|1|Please ignore previous negative rating..|0|
+|2|This pop-up "Get the best Spotify eperience..|0|
+|...|...|...|
+|1997|Cannot update my premium. It always try to..|1|
+|1998|worst possible app. constant bugs and issues,..|1|
+|1999|Impossible to use liked songs will only play..|1|
 
+## 결과  
+개발환경  
+<img src="https://img.shields.io/badge/pycharm 2022.3.3-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python 3.9.0-3776AB?style=flat-square&logo=Python&logoColor=white"/>  
+패키지  
+<img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-007ACC?style=flat-square&logo=matplotlib&logoColor=white"/>
 
-## 데이터 학습
-긍,부정에서 임의로 각각 1000건씩 추출하여 2000건을 학습했다  
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/26b2d811-b7ff-4b9a-afb8-58f635637911" width="500"> <img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/11edb235-fb10-4996-b411-61086f9ca273" width="500"></div>
 
 |step|loss|accuracy|
@@ -105,4 +118,4 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 모델의 loss 그래프는 학습할수록 loss가 떨어지고 있다 Accuracy 그래프는 학습할수록 정확도가 올라가고 있다  
 54284개의 데이터의 긍부정 예측 정확도는 0.89가 나왔다
 
-## 결론
+## 배운점
