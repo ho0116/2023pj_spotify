@@ -2,11 +2,8 @@
 <div><img src ="https://user-images.githubusercontent.com/85285367/235826775-224c4b7c-57b3-4e1d-b13e-49849cb86cbd.png"></div>
 
 
-<div>
 MobileBert를 이용하여 Google Play Store의 Spotify App 리뷰 긍부정을 예측해보는 프로젝트
-    
-<img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-</div>
+
 ## 1. 개요
 
 ### 1.1 문제정의
@@ -100,10 +97,10 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |1999|Impossible to use liked songs will only play..|1|
 
 ## 결과  
-개발환경  
+#### 개발환경  
 <img src="https://img.shields.io/badge/pycharm 2022.3.3-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python 3.9.0-3776AB?style=flat-square&logo=Python&logoColor=white"/>  
-패키지  
-<img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-007ACC?style=flat-square&logo=matplotlib&logoColor=white"/>
+#### 패키지  
+<img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-3776AB?style=flat-square&logo=matplot&logoColor=white"/>
 
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/26b2d811-b7ff-4b9a-afb8-58f635637911" width="500"> <img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/11edb235-fb10-4996-b411-61086f9ca273" width="500"></div>
 
@@ -116,6 +113,6 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 모델의 긍부정 예측 정확도는 0.93이 나왔다  
 모델의 loss 그래프는 학습할수록 loss가 떨어지고 있다 Accuracy 그래프는 학습할수록 정확도가 올라가고 있다  
-54284개의 데이터의 긍부정 예측 정확도는 0.89가 나왔다
+54282개의 데이터의 긍부정 예측 정확도는 0.89가 나왔다
 
 ## 배운점
