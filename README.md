@@ -108,7 +108,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 #### 패키지  
 <img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-3776AB?style=flat-square&logo=matplot&logoColor=white"/>
 
-<div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/26b2d811-b7ff-4b9a-afb8-58f635637911" width="500"> <img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/11edb235-fb10-4996-b411-61086f9ca273" width="500"></div>
+<div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/26b2d811-b7ff-4b9a-afb8-58f635637911" width="450"> <img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/11edb235-fb10-4996-b411-61086f9ca273" width="450"></div>
 
 |step|loss|accuracy|
 |---|---|---|
