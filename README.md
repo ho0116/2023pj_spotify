@@ -43,13 +43,13 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 - 데이터명
 
 |Time_submitted|Review|Rating|Total_thumbsup|Reply|
-|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 |리뷰 제출 시간|리뷰|평점|도움된 수|댓글|
 
 - 데이터
 
 ||Time_submitted|Review|Rating|Total_thumbsup|Reply|
-|---|---|---|---|---|---|
+|:---:|---|---|---|---|---|
 |0|2022-07-09 15:00:00|Great music service, the audio is higy quality..|5|2|NaN|
 |1|2022-07-09 14:21:22|Please ignore previous negative rating..|5|1|NaN|
 |2|2022-07-09 13:27:32|This pop-up "Get the best Spotify eperience..|4|0|NaN|
@@ -78,7 +78,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 - 데이터 (positive:0, negative:1)
 
 ||Review|Label|
-|---|---|---|
+|:---:|---|:---:|
 |0|Great music service, the audio is higy quality..|0|
 |1|Please ignore previous negative rating..|0|
 |2|This pop-up "Get the best Spotify eperience..|0|
@@ -93,7 +93,7 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 - 데이터
 
 ||Review|Label|
-|---|---|---|
+|:---:|---|:---:|
 |0|Great music service, the audio is higy quality..|0|
 |1|Please ignore previous negative rating..|0|
 |2|This pop-up "Get the best Spotify eperience..|0|
@@ -107,15 +107,13 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 <img src="https://img.shields.io/badge/pycharm 2022.3.3-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python 3.9.0-3776AB?style=flat-square&logo=Python&logoColor=white"/>  
 #### 패키지  
 <img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-3776AB?style=flat-square&logo=matplot&logoColor=white"/>
-
+#### MobileBERT를 사용한 결과
 <div><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/26b2d811-b7ff-4b9a-afb8-58f635637911" width="400"> <img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/11edb235-fb10-4996-b411-61086f9ca273" width="400"></div>
 
-|step|loss|accuracy|
-|---|---|---|
-|0|1.59|0.9|
-|1|0.32|0.92|
-|2|0.27|0.93|
-|3|0.19|0.93|
+|step|0|1|2|3|
+|:---:|:---:|:---:|:---:|:---:|
+|loss|1.59|0.32|0.27|0.19|
+|accuracy|0.9|0.92|0.93|0.93|
 
 모델의 긍부정 예측 정확도는 **0.93**이 나왔다  
 모델의 loss 그래프는 학습할수록 loss가 떨어지고 있다  
