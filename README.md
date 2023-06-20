@@ -70,9 +70,9 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 ### 2.2 분석 데이터
 
-3점은 제외시키고 1, 2점은 부정 4, 5점은 긍정으로 분류했다
+3점은 제외시키고 1, 2점은 부정  4, 5점은 긍정으로 분류했다
 
-<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/9ed9b098-b40e-4856-83f2-74137d95c4c0" width="400"></div>
+<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/6d401f00-99c1-4d8d-8f88-7d9d929ccd0f" width="400"></div>
 
 원본 데이터에서 필요한 데이터인 리뷰와 평점을 긍부정으로 나눈것을 합쳐서 하나의 데이터로 만들었다
 - 데이터 (positive:0, negative:1)
@@ -118,8 +118,9 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |3|0.19|0.93|
 
 모델의 긍부정 예측 정확도는 **0.93**이 나왔다  
-모델의 loss 그래프는 학습할수록 loss가 떨어지고 있다 Accuracy 그래프는 학습할수록 정확도가 올라가고 있다  
-54282개의 데이터의 긍부정 예측 정확도는 **0.89**가 나왔다
+모델의 loss 그래프는 학습할수록 loss가 떨어지고 있다  
+Accuracy 그래프는 학습할수록 정확도가 오르거나 유지되고 있다  
+54282개의 분석 데이터의 긍부정 예측 정확도는 **0.89**가 나왔다
 
 ## 배운점
-이번 감성분석 프로젝트에서는 긍정과 부정으로만 분석을 진행하여 결과를 도출했지만, 다음에는 중립인 3점을 포함한 부정, 중립, 긍정 세 가지로 분석해보고 싶다는 아쉬움이 남았다.
+이번 감성분석 프로젝트에서는 긍정과 부정으로만 분석을 진행하여 결과를 도출했지만, 다음에는 중립인 3점을 포함한 부정, 중립, 긍정 세 가지로 분석해보고 싶다는 아쉬움이 남았다
