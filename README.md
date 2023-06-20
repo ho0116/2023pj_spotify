@@ -22,11 +22,11 @@ Google Play Store는 음악, 동영상, 책, 안드로이드 응용 프로그램
 이러한 평점과 리뷰를 통해 Google Play Store에서 음악 스트리밍 앱을 선택할 때 사용자들은 다른 사용자들의 평점과 리뷰를 참고하여 자신에게 가장 적합한 음악 스트리밍 앱을 선택할 수 있다. <a href="https://android-developers.googleblog.com/2021/08/making-ratings-and-reviews-better-for.html">[2]</a>
 
 <div align="center"><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/3790d289-575f-40d9-922f-d983d0275db1" width="500"></div>
-Spotify는 현재 184개 국가에서 서비스를 제공하고 있어 전 세계적으로 널리 이용되고 있는 음악 스트리밍 플랫폼이다. <a href="https://newsroom.spotify.com/2022-02-14/%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-%EA%B5%AD%EB%82%B4-%EB%A1%A0%EC%B9%AD-1%EC%A3%BC%EB%85%84-%EA%B8%B0%EB%85%90-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%84%B1%EA%B3%BC-%EB%B0%8F-%EB%8D%B0%EC%9D%B4/">[3]</a> IT 시장조사업체인 미디어리서치(MIDiA)가 2022년 2분기를 기준 글로벌 시장 점유율을 집계한 결과에 따르면, Spotify가 가장 높은 시장 점유율을 보여줬다. Spotify는 전체 시장의 30.5%를 차지하며 1위를 기록했다. Apple Music은 13.7%의 점유율로 2위를 차지하고, Tencent Music은 13.4%의 점유율로 3위를 차지했다. 이를 비교해보면 Spotify는 2위인 Apple Music보다도 약 2배 가량 더 많은 시장 점유율을 보여주고 있다. 이러한 결과로, 음악 스트리밍 앱 시장에서 Spotify가 현저한 우위를 차지하고 있다는 사실을 알 수 있다. <a href="https://it.chosun.com/site/data/html_dir/2023/06/19/2023061902063.html">[4]</a>
+Spotify는 전 세계적으로 널리 이용되고 있는 음악 스트리밍 플랫폼이다. IT 시장조사업체인 미디어리서치(MIDiA)가 2022년 2분기를 기준 글로벌 시장 점유율을 집계한 결과에 따르면, Spotify가 가장 높은 시장 점유율을 보여줬다. Spotify는 전체 시장의 30.5%를 차지하며 1위를 기록했다. Apple Music은 13.7%의 점유율로 2위를 차지하고, Tencent Music은 13.4%의 점유율로 3위를 차지했다. 이를 비교해보면 Spotify는 2위인 Apple Music보다도 약 2배 가량 더 많은 시장 점유율을 보여주고 있다. 이러한 결과로, 음악 스트리밍 앱 시장에서 Spotify가 현저한 우위를 차지하고 있다는 사실을 알 수 있다. <a href="https://it.chosun.com/site/data/html_dir/2023/06/19/2023061902063.html">[3]</a>
 <div align="center"><img src="https://github.com/ho0116/2023pj_spotify/assets/85285367/08216e11-5597-4fe6-8916-baef580d3df0" width="500"></div>
 SPotify는 2023년 1분기 기준 5억 1,500만 명이 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 많은 나라에서 이용자 수에 대한 큰 성장을 보였다.
 이러한 성장의 대부분은 무료 광고 지원 버전의 Spotify 서비스를 사용하는 사람들을 기반으로 한다.
-프리미엄 구독은 전년 대비 15% 증가한 2억 1천만 명으로 유럽과 라틴 아메리카를 비롯한 모든 지역에서 우수한 실적을 보였다. <a href="https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/">[5]</a>  
+프리미엄 구독은 전년 대비 15% 증가한 2억 1천만 명으로 유럽과 라틴 아메리카를 비롯한 모든 지역에서 우수한 실적을 보였다. <a href="https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/">[4]</a>  
 
 
 ### 1.2 spotify 리뷰의 영향력
@@ -122,4 +122,4 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 54282개의 데이터의 긍부정 예측 정확도는 **0.89**가 나왔다
 
 ## 배운점
-긍정,부정으로만 감성분석을 하여 약간 아쉬웠다. 중립인 3점을 포함하여 부정, 중립, 긍정을 해보고 싶다.
+이번 감성분석 프로젝트에서는 긍정과 부정으로만 분석을 진행하여 결과를 도출했지만, 다음에는 중립인 3점을 포함한 부정, 중립, 긍정 세 가지로 분석해보고 싶다는 아쉬움이 남았다.
