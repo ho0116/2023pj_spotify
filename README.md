@@ -58,11 +58,13 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |61592|2022-01-01 00:49:23|The app is good hard to navigate and won't..|2|1|NaN|
 |61593|2022-01-01 00:19:09|Its good but sometimes it doesnt load the..|4|0|NaN|
 
-6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다
+6만여 개의 리뷰가 있으며 1점부터 5점으로 구성되어 있다, 도움된 수를 평점별과 평균값에 대한 그래프를 그려봤다  
       
 <div><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/86cb68fa-9547-432c-9a86-dc761a41e329" width="400"><img src = "https://github.com/ho0116/2023pj_spotify/assets/85285367/b784c1d8-85f7-4efc-933e-912ef76900af" width="400"></div>
-도움된 수를 평점별과 평균값에 대한 그래프를 그려봤다  
 
+1점에는 17653개, 2점은 7118, 3점은 6886, 4점은 7842개, 5점은 22095개의 데이터로 구성되어있다   
+도움된 수 그래프는 1점은 9개, 2점은 10개, 3점은 13개, 4점은 11개, 5점은 3개로 구성되어있다  
+Spotify가 글로벌 1위를 차지하고 있기 때문에 리뷰의 도움된 수도 높을 것으로 예상했는데 의외로 5점의 도움된 수가 적게 나왔다
   
 - 리뷰 문장 10자 이상 길이의 분포도
 <div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/142995b8-ea69-4dee-9c30-24c21a00d9ba" width="400"></div>
@@ -70,12 +72,11 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 
 ### 2.2 분석 데이터
 
-3점은 제외시키고 1, 2점은 부정  4, 5점은 긍정으로 분류했다
+원본 데이터에서 리뷰와 평점을 추출하여 사용했다  
+평점에서 3점을 제외하고, 1점과 2점은 부정(1)으로, 4점과 5점은 긍정(0)으로 분류했다  
+이렇게 분류한 긍정과 부정을 하나의 데이터로 만들었다
 
-<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/6d401f00-99c1-4d8d-8f88-7d9d929ccd0f" width="400"></div>
-
-원본 데이터에서 필요한 데이터인 리뷰와 평점을 긍부정으로 나눈것을 합쳐서 하나의 데이터로 만들었다
-- 데이터 (positive:0, negative:1)
+- 데이터
 
 ||Review|Label|
 |---|---|---|
@@ -86,6 +87,12 @@ Kaggle [Spotify App(Google Play Store)](https://www.kaggle.com/datasets/mfaaris/
 |54279|This app would be good if not for it..|1|
 |54280|The app is good hard to navigate and won't..|1|
 |54281|Its good but sometimes it doesnt load the..|0|
+
+54282개의 데이터가 있으며 긍정과 부정에 대한 그래프를 그려봤다
+
+<div><img src ="https://github.com/ho0116/2023pj_spotify/assets/85285367/de5de9c3-dd31-4f3a-ac80-6dbb8a70cf56" width="400"></div>
+
+긍정은 29688개가 있고, 부정은 24594개의 데이터로 구성되어있다
 
 ### 2.3 학습 데이터
 
@@ -121,4 +128,4 @@ Accuracy 그래프는 학습할수록 정확도가 오르거나 유지되고 있
 54282개의 분석 데이터의 긍부정 예측 정확도는 **0.89**가 나왔다
 
 ## 배운점
-이번 감성분석 프로젝트에서는 긍정과 부정으로만 분석을 진행하여 결과를 도출했지만, 다음에는 중립인 3점을 포함한 부정, 중립, 긍정 세 가지로 분석해보고 싶다는 아쉬움이 남았다
+이번 감성분석 프로젝트를 통해 중립인 3점을 포함한 부정, 중립, 긍정 세 가지로 분석해보고 싶다는 아쉬움이 들었다. 전처리 작업에 많은 시간을 투자하여 글쓰기에 충분한 시간을 할애하지 못한 것이 아쉬웠다. 또한, 정제된 데이터만을 사용하다가 정제되지 않은 데이터를 처리하면서 전처리 능력의 중요성을 깨달았다. 앞으로의 프로젝트에서는 데이터 전처리에 충분한 시간을 할애하면서도 글쓰기에도 충분한 시간을 확보해야 한다고 느꼈다.
